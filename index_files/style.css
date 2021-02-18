@@ -538,11 +538,11 @@ a:hover, a:active {
 }
 
 .main-navigation a {
-  color: #41e14e;
+  color: #025c0a;
 }
 
 .main-navigation a:visited {
-  color: #057220;
+  color: #01350e;
 }
 
 .main-navigation a:hover, .main-navigation a:focus, .main-navigation a:active {
@@ -686,7 +686,7 @@ textarea {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  background-color: black;
+  background-color: #61c3e4;
 }
 
 .main-navigation ul ul {
@@ -1047,6 +1047,9 @@ textarea {
   font-family: "Roboto", monospace;
   font-weight: bold;
   margin-bottom: 0;
+  background-color: mediumslateblue;
+  width: 30%;
+  border-radius: 15px 50px 0px 0px;
 }
 
 .site-title a {
@@ -1055,8 +1058,12 @@ textarea {
 
 .site-description {
   margin-top: 0;
-  font-size: clamp(0.6rem, -0.875rem + 8.333vw, 5rem);
+  font-size: clamp(0.3rem, -0.875rem + 8.333vw, 3rem);
   font-family: "Roboto", monospace;
+  background-color: mediumslateblue;
+  width: 40%;
+  border-radius: 0px 50px 15px 50px;
+  padding-left: 20px;
 }
 
 .acceuil ul {
