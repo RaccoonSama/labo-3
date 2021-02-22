@@ -1080,7 +1080,7 @@ textarea {
 
 .site-footer {
   height: 7rem;
-  background-color: lightblue;
+  background-color: rgba(32, 32, 32, 0.63);
   display: flex;
   justify-items: center;
   justify-content: center;
